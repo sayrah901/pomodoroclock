@@ -1,0 +1,36 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css");
+
+body{
+	background-color: #404040;
+}
+.table-center{
+	display: table;
+	margin: 0 auto;
+}
+.width-35{
+	width: 35%;
+}
+.width-50{
+	width: 50%;
+}
+.background-white{
+	background-color: #fff;
+}
+.text-center{
+	text-align: center;
+}
+.padding-v4{
+	padding-top: 4rem;
+	padding-bottom: 4rem;
+}
+.padding-h2{
+	padding-left: 2rem;
+	padding-right: 2rem;
+}
+.margin-v2{
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+.inline-block{
+	display: inline-block;
+}
