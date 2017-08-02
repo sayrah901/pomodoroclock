@@ -3,28 +3,34 @@
 </head>
 
 <body class = "padding-v4 padding-h2">
-	<div class = "table-center width-35 background-white padding-h2">
+	<div class = "table-center width-35 background-white padding-h2 mobile-width-90">
 		<div class = "text-center">
-			<h1 class = "margin-v2">Pomodoro Clock</h1>
+			<h1 class = "">Pomodoro Clock</h1>
 			<p>...get more productive</p>
 		</div>
+		<div class = "width-90 table-center">
+			<div class = "inline-block width-35 margin-v2">
+				<label class = "block">Break Time</label>
+				<input type = "number" value = "05" min = "0" max = "90" class = "input">
+			</div>
 
-		<label class = "inline-block">Break Time</label>
-		<input type = "number" value = "05" min = "0" max = "90" class = "width-50">
+			<div class = "inline-block width-35 margin-v2 pull-right">
+				<label class = "block">Work Time</label>
+				<input type = "number" value = "25" min = "0" max = "90" class = "input">
+			</div>
 
-		<label class = "inline-block">Work Time</label>
-		<input type = "number" value = "25" min = "0" max = "90" class = "width-50">
-
-		<div>
-			<div>0</div>
-			<div>0</div>
-			<div>0</div>
-			<div>0</div>
-			<div>0</div>
-			<div>0</div>
+			<div>
+				<div class = "inline-block time-box text-center">0</div>
+				<div class = "inline-block time-box text-center">0</div>
+				<div class = "inline-block time-box text-center">0</div>
+				<div class = "inline-block time-box text-center">0</div>
+				<div class = "inline-block time-box text-center">0</div>
+				<div class = "inline-block time-box text-center">0</div>
+			</div>
+			<div class = "padding-v4">
+				<button>Start</button>
+				<button>Reset</button>
+			</div>
 		</div>
-
-		<button>Start</button>
-		<button>Reset</button>
 	</div>
 </body>
